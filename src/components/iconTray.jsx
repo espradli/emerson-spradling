@@ -7,7 +7,6 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 
 const IconTray = () => {
   const container = {
-    textAlign: 'right',
     position: 'fixed',
     padding: 10,
     bottom: 0,
