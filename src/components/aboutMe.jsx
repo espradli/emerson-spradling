@@ -1,44 +1,21 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
+import { bookFont } from '@bit/bit.base-ui.theme.fonts.book';
 import imgPath from '../images/IMG_2499.jpeg'
 
-const AboutMe = () => {
-  const titleContainer = {
-    position: 'absolute',
-    display:'inline-block',
-    top: '15vh', 
-    left: 50,
-  }
-  const textContainer = {
-    position: 'absolute',
-    display:'inline-block',
-    top: '15vh', 
-    right: 50,
-    width: '30vw'
-  }
 
-  const photo = {
-    position: 'absolute',
-    top: '15vh',
-    left: '30vw', 
-    width: '30vw',
-    border: '1px solid #021a40'
-  }
-  
+const AboutMe = () => {
   return ( 
-    <React.Fragment>
-      <div style={titleContainer}>
-        <h1>About Me</h1>
+    <div className="columns is-vcentered is-centered" style={{margin: 'auto', height: '100vh'}}>
+      <div className="column">  
+        <div className={bookFont} style={{fontSize: 36}}>about me</div>
       </div>
-      <Paper elevation={4}>
-        <svg style={{width:100, height: 100}}>
-        </svg>
-      </Paper>
-      <img style={photo} src={imgPath} alt=""/>
-      <div style={textContainer}>
+      <div className="column">
+        <img className='photo' src={imgPath} alt=""/>
+      </div>
+      <div className="column">
         <div >
-          <ul style={{listStyle: 'none', paddingLeft: 0, alignContent: 'right'}}>
-            <li> Austin Resident</li>
+          <ul className={bookFont} style={{listStyle: 'none', paddingLeft: 0, alignContent: 'right'}}>
+            <li>Austin Resident</li>
             <li>Trinity University Class of 2021</li>
             <li>Computer Science Major and Business Minor</li>
             <li>Resident Assistant</li>
@@ -48,8 +25,10 @@ const AboutMe = () => {
             <li>Sunset Chaser</li>
           </ul>
         </div>
+        <br />
         <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam  
+          <p className={bookFont}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam  
             ursus neque felis. Vivamus accumsan blandit nibh ut lacinia. 
             Aenean condimentum arcu eget neque pellentesque, id semper 
             eros ornare. Phasellus vitae sapien lacus. Vestibulum venenatis 
@@ -62,7 +41,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-    </React.Fragment>
+    </div>
    );
 }
  

@@ -4,18 +4,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/bit.base-ui.theme.fonts.book": "^1.1.0",
     "@material-ui/core": "^4.10.0",
     "@material-ui/icons": "^4.9.1",
-    "@terwanerik/scrolltrigger": "^1.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "parallax-js": "^3.1.0",
+    "bulma": "^0.8.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-responsive-decorator": "0.0.1",
     "react-scripts": "3.4.1",
-    "react-scroll-parallax": "^2.3.2"
+    "typescript": "^3.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
