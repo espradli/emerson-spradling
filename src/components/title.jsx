@@ -8,7 +8,6 @@ class Title extends Component {
   render() { 
     return ( 
       <center className="Title-text">Emerson <br /> Spradling</center>  
-      
      );
   }
 }

@@ -7,6 +7,7 @@ import Title from './components/title'
 // import Navigation from './components/navigation'
 import IconTray from './components/iconTray'
 import AboutMe from './components/aboutMe';
+import Projects from './components/projects'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <div className="Background">
           {/* <Navigation /> */}
           {/* <Title /> */}
-          <AboutMe />
+          {/* <AboutMe /> */}
+          <Projects />
           <IconTray />
         </div>
     </div>
