@@ -1,4 +1,4 @@
-# Spradling.dev
+# spradling.dev
 
 ## Visit the site @ [spradling.dev](spradling.dev)!
 

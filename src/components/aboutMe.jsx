@@ -22,7 +22,7 @@ const AboutMe = () => {
   return ( 
     <div className="columns is-centered" style={{margin: 'auto', height: '100vh'}}>
       <div className="column is-narrow"><div style={{width: '7vw'}} /></div>
-      <div className="column">  
+      <div className="column is-narrow">  
         <div className={bookFont} style={{fontSize: 36}}>about me</div>
       </div>
 
@@ -33,14 +33,14 @@ const AboutMe = () => {
       <div className="column">
         <div >
           <ul className={bookFont} style={{listStyle: 'none', paddingLeft: 0, alignContent: 'right'}}>
-            <li> <HomeIcon style={icon}/> Austin Resident</li>
+            <li> <HomeIcon style={icon}/> Austin resident</li>
             <li> <SchoolIcon style={icon}/> Trinity University Class of 2021</li>
-            <li> <ComputerIcon style={icon}/> Computer Science Major and Business Minor</li>
-            <li> <WorkIcon style={icon}/> Resident Assistant</li>
-            <li> <SportsBasketballIcon style={icon}/> Basketball and Tennis Player</li>
-            <li> <FitnessCenterIcon style={icon}/> Fitness Enthusiast</li>
-            <li> <MusicNoteIcon style={icon}/> French Horn Finatic</li> 
-            <li> <WbSunnyIcon style={icon}/> Sunset Chaser</li>
+            <li> <ComputerIcon style={icon}/> Computer science major and business minor</li>
+            <li> <WorkIcon style={icon}/> Resident assistant</li>
+            <li> <SportsBasketballIcon style={icon}/> Basketball and tennis player</li>
+            <li> <FitnessCenterIcon style={icon}/> Fitness enthusiast</li>
+            <li> <MusicNoteIcon style={icon}/> French horn fanatic</li> 
+            <li> <WbSunnyIcon style={icon}/> Sunset chaser</li>
           </ul>
         </div>
         <br />

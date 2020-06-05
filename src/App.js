@@ -1,19 +1,19 @@
 import React from 'react';
-// import './App.css';
 import './App.sass';
-
 //Component Imports
 import Title from './components/title'
-// import Navigation from './components/navigation'
 import IconTray from './components/iconTray'
 import AboutMe from './components/aboutMe';
 import Projects from './components/projects'
 import Resume from './components/resume'
+// import Navigation from './components/navigation'
+
 
 function App() {
-  return (
-    <div className="App">
-        <div className="Background">
+
+  return (    
+    <div className='App'>
+      <div className="Background">
           {/* <Navigation /> */}
           <Title />
           {/* <AboutMe /> */}
