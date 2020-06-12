@@ -16,17 +16,13 @@ function App() {
       <div className="Background">
           {/* <Navigation /> */}
           <Title />
-          {/* <AboutMe /> */}
-          {/* <Projects /> */}
           <IconTray />
         </div>
         <div className="Background">
           <AboutMe />
-        </div>
-        <div className="Background">
+          <div style={{height: '10vh'}} />
           <Projects />
-        </div>
-        <div className="Background">
+          <div style={{height: '10vh'}} />
           <Resume />
         </div>
     </div>

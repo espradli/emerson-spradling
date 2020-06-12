@@ -20,14 +20,14 @@ const AboutMe = () => {
 
 
   return ( 
-    <div className="columns is-centered" style={{margin: 'auto', height: '100vh'}}>
+    <div className="columns is-centered" style={{margin: 'auto'}}>
       <div className="column is-narrow"><div style={{width: '7vw'}} /></div>
       <div className="column is-narrow">  
         <div className={bookFont} style={{fontSize: 36}}>about me</div>
       </div>
 
-      <div className="column">
-        <img className='photo' src={imgPath} alt=""/>
+      <div className="column is-narrow" style={{textAlign: 'center'}}>
+        <img className='photo' style={{maxHeight: 500}} src={imgPath} alt=""/>
       </div>
       
       <div className="column">
@@ -45,7 +45,7 @@ const AboutMe = () => {
         </div>
         <br />
         <div>
-          <p className={bookFont}>
+          <p className={bookFont} style={{maxWidth: 500}}>
             My whole life I have been fascinated with how things work. When I was young, 
             I would sit in the car for hours trying to figure out the function of each button and knob. 
             My curiosity has translated directly to my passion for computer science as I continue to 
