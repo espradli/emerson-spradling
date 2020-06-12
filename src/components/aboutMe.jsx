@@ -23,7 +23,7 @@ const AboutMe = () => {
     <div className="columns is-centered" style={{margin: 'auto'}}>
       <div className="column is-narrow"><div style={{width: '7vw'}} /></div>
       <div className="column is-narrow">  
-        <div className={bookFont} style={{fontSize: 36}}>about me</div>
+        <div className={bookFont} style={{fontSize: 36, fontWeight: 'bold'}}>about me</div>
       </div>
 
       <div className="column is-narrow" style={{textAlign: 'center'}}>
@@ -47,7 +47,7 @@ const AboutMe = () => {
         <div>
           <p className={bookFont} style={{maxWidth: 500}}>
             My whole life I have been fascinated with how things work. When I was young, 
-            I would sit in the car for hours trying to figure out the function of each button and knob. 
+            I would sit in the car for hours trying to determine the function of each button and knob. 
             My curiosity has translated directly to my passion for computer science as I continue to 
             push myself to learn more about all aspects of full-stack development. Through this, 
             I have found an interest in machine learning and big data because of the intriguing use of 

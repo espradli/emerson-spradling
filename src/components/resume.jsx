@@ -22,7 +22,7 @@ const Resume = () => {
     <div className="columns is-centered" style={{margin: 'auto'}}>
       <div className="column is-narrow"><div style={{width: '7vw'}} /></div>
       <div className="column is-narrow">  
-        <div className={bookFont} style={{fontSize: 36}}>resume</div>
+        <div className={bookFont} style={{fontSize: 36, fontWeight: 'bold'}}>resume</div>
       </div>
 
       <div className="column" style={{textAlign: 'center'}}>

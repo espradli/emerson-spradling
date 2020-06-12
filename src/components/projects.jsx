@@ -30,7 +30,7 @@ const Projects = () => {
       <div className="column is-narrow"><div style={{width: '7vw'}} /></div>
       
       <div className="column is-narrow">
-        <div className={bookFont} style={{fontSize: 36}}>projects</div>
+        <div className={bookFont} style={{fontSize: 36, fontWeight: 'bold'}}>projects</div>
       </div>
 
       <div className="column">
@@ -43,7 +43,7 @@ const Projects = () => {
             </article>
             <article className="tile is-child">
               <div className={bookFont} style={{ fontWeight: 'bold', fontSize: 22 }}>spradling.dev</div>
-              <div className={bookFont} style={{fontSize: 14}}> 
+              <div className={bookFont}> 
                 This website! As my first attempt at front-end, I built this personal webiste using React.js and deployed it using Github pages. 
                 This is an ongoing sideproject where I hope to add content as I learn more about front-end development.
               </div>
@@ -66,7 +66,7 @@ const Projects = () => {
               </article>
               <article className="tile is-child">
                 <div className={bookFont} style={{ fontWeight: 'bold', fontSize: 22 }}>Chicago Transportation</div>
-                <div className={bookFont} style={{fontSize: 14}}> 
+                <div className={bookFont}> 
                   Chicago Transportation is an analisis over a Chicago Taxi dataset (72gb). 
                   I used Apache Spark in Scala to apply a few machine learning algorithms to the dataset on a 
                   local distributed system. I produced a writeup that is on the gitub page with my results. 
