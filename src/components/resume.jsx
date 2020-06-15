@@ -3,7 +3,7 @@ import { bookFont } from '@bit/bit.base-ui.theme.fonts.book';
 import Button from '@material-ui/core/Button';
 import { blueGrey } from '@material-ui/core/colors';
 import { withStyles } from '@material-ui/core/styles';
-import imgPath from "../images/EmersonSpradling_Resume.jpg"
+import imgPath from "../images/EmersonSpradling_Resume.png"
 import pdfPath from "../images/EmersonSpradling_Resume.pdf"
 
 
