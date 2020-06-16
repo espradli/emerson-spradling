@@ -13,7 +13,7 @@ const Resume = () => {
       color: 'white', //theme.palette.getContrastText(purple[500]),
       backgroundColor:  'rgb(83, 86, 89)', // https://material-ui.com/customization/color/
       '&:hover': {
-        backgroundColor: blueGrey[700],
+        backgroundColor: blueGrey[900],
       },
     },
   }))(Button)
