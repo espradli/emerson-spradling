@@ -45,7 +45,7 @@ const Projects = () => {
               <div className={bookFont} style={{ fontWeight: 'bold', fontSize: 22 }}>spradling.dev</div>
               <div className={bookFont}> 
                 This website! As my first attempt at front-end, I built this personal webiste using React.js and deployed it using Github pages. 
-                This is an ongoing sideproject where I hope to add content as I learn more about front-end development.
+                This is an ongoing side project where I hope to add content as I learn more about front-end development.
               </div>
 
               <ColorButton variant="contained" color="primary" style={{marginTop: 10, color: 'white'}} href="https://github.com/espradli/EmersonSpradling">
