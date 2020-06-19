@@ -67,7 +67,7 @@ const Projects = () => {
               <article className="tile is-child">
                 <div className={bookFont} style={{ fontWeight: 'bold', fontSize: 22 }}>Chicago Transportation</div>
                 <div className={bookFont}> 
-                  Chicago Transportation is an analisis over a Chicago Taxi dataset (72gb). 
+                  Chicago Transportation is an analysis over a Chicago Taxi dataset (72gb). 
                   I used Apache Spark in Scala to apply a few machine learning algorithms to the dataset on a 
                   local distributed system. I produced a writeup that is on the gitub page with my results. 
                   I hope to pick this project back up and connect the taxi dataset to other Chicago transportation 
